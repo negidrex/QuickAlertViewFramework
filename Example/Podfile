@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'QuickAlertViewFramework_Example' do
+  pod 'QuickAlertViewFramework', :path => '../'
+
+  target 'QuickAlertViewFramework_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
